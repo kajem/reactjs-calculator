@@ -1,0 +1,35 @@
+.result {
+  height: 60px;
+  background-color: #eee;
+  width: 100%;
+}
+.result-history{
+  height: 150px;
+  background-color: #eee;
+  overflow-y: auto;
+}
+.result-history div:first-child{
+  border-top: 0px solid #eee;
+}
+.result-history div{
+  padding: 5px 10px;
+  border-top: 1px solid #dedede;
+}
+.result div {
+  font-size: 40px;
+  margin: 5px;
+
+}
+.calculator {
+  max-width: 400px;
+  margin: auto;
+}
+.button {
+  display: block;
+  background-color: #bbb;
+}
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+}
